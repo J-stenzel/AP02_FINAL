@@ -14,6 +14,11 @@
 #cd ..\.. & cd Scripts & streamlit run AP02.py
 #streamlit run AP02.py
 
+#git status
+#git add .
+#git commit -m "ajustando caminhodo csv"
+#git push
+
 ##LIBS ###########################################
 ##################################################
 import streamlit as st
@@ -24,7 +29,7 @@ import missingno as msno
 ##BASE ###########################################
 ##################################################
 #df = pd.read_csv('../basestratadas/filmes.csv', sep=';')
-df = pd.read_csv('/basestratadas/filmes.csv', sep=';')
+df = pd.read_csv('basestratadas/filmes.csv', sep=';')
 
 
 ## TAMANHO DA TELA ###############################
