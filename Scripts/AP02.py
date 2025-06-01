@@ -23,7 +23,8 @@ import missingno as msno
 
 ##BASE ###########################################
 ##################################################
-df = pd.read_csv('../basestratadas/filmes.csv', sep=';')
+#df = pd.read_csv('../basestratadas/filmes.csv', sep=';')
+df = pd.read_csv('/basestratadas/filmes.csv', sep=';')
 
 
 ## TAMANHO DA TELA ###############################
